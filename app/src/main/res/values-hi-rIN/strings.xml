@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">डाकिया संग्रह</string>
+    <string name="enter_collection">संग्रह डालने के लिए टाइप करें</string>
+    <string name="create_collection">संग्रह बनाएँ</string>
+    <string name="Home">घर</string>
+    <string name="addCollection">" संग्रह जोड़ें"</string>
+    <string name="profile">"प्रोफ़ाइल"</string>
+    <string name="collectionName">संग्रह का नाम</string>
+    <string name="Enter_API_Name">एपीआई नाम दर्ज करें</string>
+    <string name="Enter_API_Type">एपीआई प्रकार दर्ज करें</string>
+    <string name="label_signin">दाखिल करना</string>
+    <string name="label_registration">उपयोगकर्ता पंजीकरण</string>
+    <string name="label_videoView">पोस्टमैन के बारे में</string>
+    <string name="generatePdf">पीडीएफ जनरेट करें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="shareCollection">अपना संग्रह साझा करें</string>
+    <string name="playVideo">बेहतर एपीआई-तेजी से बनाएं</string>
+    <string name="learnMore">पोस्टमैन के साथ एपीआई का परीक्षण, मॉक और मॉनिटर करें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="email">ईमेल</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="dont_have_account">खाता नहीं है?</string>
+    <string name="signUp">साइन अप करें</string>
+    <string name="login_button">लॉग इन करें</string>
+    <string name="name"> नाम </string>
+    <string name="signUpemail">ईमेल</string>
+    <string name="phone">फ़ोन</string>
+    <string name="signupPass">पासवर्ड</string>
+    <string name="confirmPass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="uploadImage">तस्विर अपलोड करना</string>
+    <string name="signUpButton">साइन अप करें</string>
+    <string name="login_title">लॉग इन करें</string>
+    <string name="video_title">वीडियो</string>
+    <string name="signUp_title">साइन अप करें</string>
+    <string name="collection_list_title"> संग्रह सूची</string>
+    <string name="profile_title">प्रोफ़ाइल</string>
+    <string name="create_collection_title">संग्रह बनाएँ</string>
+    <string name="firstText">-> अपने सभी एपीआई को समेकित करें</string>
+    <string name="secondText">-> विज्ञापन मुक्त एप्लिकेशन का आनंद लें!</string>
+</resources>

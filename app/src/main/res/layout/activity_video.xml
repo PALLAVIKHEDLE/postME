@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp"
+    tools:context=".LoginActivity"
+    android:layout_gravity="center"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/background"
+    android:label="@string/video_title">
+    <TextView
+        android:id="@+id/idTVHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/playVideo"
+        android:textAlignment="center"
+        android:textColor="#008000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold" />
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVHeading"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/learnMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:layout_below="@id/videoView"
+        android:text="@string/learnMore"
+        android:textAlignment="center"
+        android:textColor="#008000"
+        android:textSize="18sp"
+        android:paddingBottom="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/app_name"
+        android:textColor="#008000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="17dp"
+        android:text="@string/firstText"
+        android:textAlignment="center"
+        android:textColor="#008000" />
+
+    <TextView
+        android:id="@+id/addfree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/single"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@+id/profile_photo"
+        android:text="@string/secondText"
+        android:textAlignment="center"
+        android:textColor="#008000" />
+
+    <Button
+        android:id="@+id/button_next3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="54dp"
+        android:text="@string/label_videoView" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_next3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/label_registration" />
+
+    <Button
+        android:id="@+id/button_next2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_next3"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="54dp"
+        android:text="@string/label_signin" />
+
+    <ImageView
+        android:id="@+id/profile_photo"
+        android:layout_width="165dp"
+        android:layout_height="152dp"
+        android:layout_below="@id/button_next2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-224dp"
+        android:src="@drawable/collections" />
+
+</RelativeLayout>

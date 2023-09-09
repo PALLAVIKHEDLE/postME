@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateCollectionFragment"
+    android:label="@string/create_collection_title">
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/collection_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/enter_collection"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"/>
+        <EditText
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/Enter_API_Name"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/api_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/Enter_API_Type"
+            android:textColorHint="@color/black"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:id="@+id/createCollection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_collection" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

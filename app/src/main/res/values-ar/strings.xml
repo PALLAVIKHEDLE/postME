@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">جمع البريد</string>
+        <string name="enter_collection" >مجموعة النوع المراد إدراجها</string>
+        <string name="create_collection" >إنشاء مجموعة</string>
+        <string name="Home" >بيت</string>
+        <string name="addCollection">أضف المجموعة</string>
+        <string name="profile">حساب تعريفي</string>
+        <string name="collectionName" >اسم المجموعة</string>
+        <string name="Enter_API_Name" >أدخل اسم API</string>
+        <string name="Enter_API_Type" >أدخل نوع API</string>
+        <string name="label_signin" >تسجيل الدخول</string>
+    <string name="label_registration">تسجيل المستخدم</string>
+    <string name="label_videoView">عن البريد</string>
+    <string name="generatePdf">إنشاء ملف PDF</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="shareCollection">شارك مجموعتك</string>
+    <string name="playVideo">نشاء واجهات برمجة تطبيقات أفضل بشكل أسرع</string>
+    <string name="learnMore">ختبر واجهات برمجة التطبيقات (APIs) واسخرها وراقبها باستخدام Postman</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="dont_have_account">ليس لديك حساب؟</string>
+    <string name="signUp">اشتراك</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="name"> اسم </string>
+    <string name="signUpemail">بريد إلكتروني</string>
+    <string name="phone">هاتف</string>
+    <string name="signupPass">كلمة المرور</string>
+    <string name="confirmPass">تأكيد كلمة المرور</string>
+    <string name="uploadImage">تحميل الصور</string>
+    <string name="signUpButton">اشتراك</string>
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="video_title">فيديو</string>
+    <string name="signUp_title">اشتراك</string>
+    <string name="collection_list_title">قائمة المجموعة</string>
+    <string name="profile_title">حساب تعريفي</string>
+    <string name="create_collection_title">إنشاء مجموعة</string>
+    <string name="firstText">-> دمج جميع واجهات برمجة التطبيقات الخاصة بك</string>
+    <string name="secondText">-> استمتع بالتطبيق بدون إعلانات!</string>
+</resources>

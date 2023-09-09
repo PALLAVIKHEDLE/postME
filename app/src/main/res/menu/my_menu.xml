@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/get_collection_fragment_container"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/Home"/>
+    <item android:id="@+id/create_collection_fragment_container"
+        android:icon="@drawable/baseline_add_box_24"
+        android:title="@string/addCollection" />
+    <item android:id="@+id/profile"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/profile" />
+</menu>
